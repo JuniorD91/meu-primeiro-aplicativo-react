@@ -108,54 +108,6 @@ export default Navbar;
 import Navbar from './Navbar';
 ```
 7. Passo  - Com o componente importado, nos já conseguiremos acessá-lo e vamos informar o seguinte código dentro da nossa div e antes da header.
-```diff
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        + <Navbar/>
-        +   "precommit": "lint-staged",
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
-```
-
->O código completo ficará da seguinte forma:
->```diff
->import React, { Component } from 'react';
->import logo from './logo.svg';
->import './App.css';
->import './Navbar';
->import Navbar from './Navbar';
->
->class App extends Component {
->  render() {
->    return (
->      <div className="App">
->        <Navbar/>
->           
->        <header className="App-header">
->          <img src={logo} className="App-logo" alt="logo" />
->          <h1 className="App-title">Welcome to React</h1>
->        </header>
->        <p className="App-intro">
->          To get started, edit <code>src/App.js</code> and save to reload.
->        </p>
->      </div>
->    );
->  }
->}
->
->export default App;
->```
 
 ```diff
 import React, { Component } from 'react';
