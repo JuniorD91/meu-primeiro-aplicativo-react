@@ -53,7 +53,7 @@ create-react-app meu-primeiro-aplicativo-react
 >Caso esteja  habituado a outro editor de texto ou IDE, você não terá problema ao seguir os exemplos desde tutorial.
 
 ## Criação do projeto
-Para criar um projeto react terá que executar **create-react-app meu-primeiro-aplicativo-react** ou **npx create-react-app meu-primeiro-aplicativo-react** no seu terminal de preferência.
+Para criar um projeto react teremos que seguir o passo(s) do tópico 5 ou 6 no seu terminal de preferência.
 > Imagem do log da criação do projeto : https://raw.githubusercontent.com/JuniorD91/meu-primeiro-aplicativo-react/master/src/img/powerShell.PNG
  
 ## Analisando estrutura
