@@ -29,16 +29,19 @@ Para desenvolver em react devemos primeiro configurar nosso ambiente.
 > </br>Para mais informações acesse a [documentação](https://yarnpkg.com/pt-BR/docs/install#windows-stable) do yarn.
 > </br>O npm não precisa ser instalado pois vem junto com nodejs.
 4. **ReactJs** : Para instalar o reactjs com npm deve executar as instrunções abaixo.</br>
-> **npm install -g  create-react-app**
-> </br>**create-react-app meu-primeiro-aplicativo-react**
-> </br>**cd meu-primeiro-aplicativo-react**
-> </br>**npm start**
+```
+npm install -g  create-react-app
+create-react-app meu-primeiro-aplicativo-react
+cd meu-primeiro-aplicativo-react
+npm start
+```
 
->Se você tiver o npm 5.2.0+ instalado, poderá usar o npx, executando a instrução abaixo.
-></br>**npx create-react-app meu-primeiro-aplicativo-react** 
-></br>**cd meu-primeiro-aplicativo-react**
-> </br>**npm start**</br>
-> 
+Se você tiver o npm 5.2.0+ instalado, poderá usar o npx, executando a instrução abaixo.
+```
+npx create-react-app meu-primeiro-aplicativo-react 
+cd meu-primeiro-aplicativo-react
+npm start
+```
 5. **ReactJs** : Para instalar o reactjs com Yarn deve executar a instrução abaixo.
 
 ```
