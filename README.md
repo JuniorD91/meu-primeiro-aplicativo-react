@@ -28,16 +28,27 @@ Para desenvolver em react devemos primeiro configurar nosso ambiente.
 > </br>**Linux** : curl -o- -L https://yarnpkg.com/install.sh | bash
 > </br>Para mais informações acesse a [documentação](https://yarnpkg.com/pt-BR/docs/install#windows-stable) do yarn.
 > </br>O npm não precisa ser instalado pois vem junto com nodejs.
-4. **ReactJs** : Para instalar o reactjs deve executar as instrunções abaixo.
+4. **ReactJs** : Para instalar o reactjs com npm deve executar as instrunções abaixo.</br>
 > **npm install -g  create-react-app**
 > </br>**create-react-app meu-primeiro-aplicativo-react**
-> </br>**cd my-app**
+> </br>**cd meu-primeiro-aplicativo-react**
 > </br>**npm start**
 
 >Se você tiver o npm 5.2.0+ instalado, poderá usar o npx, executando a instrução abaixo.
 ></br>**npx create-react-app meu-primeiro-aplicativo-react** 
-></br>**cd my-app**
-> </br>**npm start**
+></br>**cd meu-primeiro-aplicativo-react**
+> </br>**npm start**</br>
+> 
+5. **ReactJs** : Para instalar o reactjs com Yarn deve executar a instrução abaixo.
+
+```
+yarn create react-app meu-primeiro-aplicativo-react
+```
+O código acima equivale a  :</br>
+```
+yarn global add create-react-app 
+create-react-app meu-primeiro-aplicativo-react
+```
 6. **Editor de código-fonte** : Utilizaremos o [visual code](https://code.visualstudio.com/download) para o desenvolvimento dos códigos dos nossos exemplos.
 >Caso esteja  habituado a outro editor de texto ou IDE, você não terá problema ao seguir os exemplos desde tutorial.
 
